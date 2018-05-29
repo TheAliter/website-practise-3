@@ -1,0 +1,148 @@
+/*Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+/*General*/
+
+body {
+	background: #077054;
+}
+
+.wrapper {
+	background: #fff;
+	display: grid;
+	width: calc(100vw-80px);
+	max-width: 960px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+/*Header*/
+
+.chain {
+	background: #077054;
+}
+
+header {
+	color: #99fa99;
+	font-size: 50px;
+	text-align: center;
+	padding: 30px 0;
+}
+
+header span {
+	color: #b6d8cf;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-family: nixie_oneregular;
+}
+
+/*Navigation*/
+
+nav ul {
+	display: grid;
+	grid-template-columns: repeat(5,auto-fit);
+	grid-auto-flow: column;
+	height: 32px;
+	margin: 0 78px;
+}
+
+nav ul li {
+	display: grid;
+	place-items: center center;
+	list-style: none;
+	font-size: 18px;
+	color: #99fa99;
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	color: #b6d8cf;
+}
+
+/*Main content*/
+
+main {
+	height: 918px;
+	padding: 124px 78px 160px 63px;
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+
+main h1 {
+	color: #21a51e;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: normal;
+	text-align: center;
+	font-family: NixieOne;
+}
+
+main h1 span:nth-of-type(1) {
+	padding-bottom: 62px;
+	background: url(../images/bg-separator.png) no-repeat bottom center;
+	display: block;
+}
+
+main h1 span:nth-of-type(2) {
+	text-transform: none;
+	padding-top: 59px;
+	display: block;
+}
+
+/*Footer*/
+
+footer {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-flow: column;
+	padding: 20px 0 20px;
+}
+
+footer span:nth-of-type(1) {
+	color: #99fa99;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+footer span:nth-of-type(2) {
+	color: #b6d8cf;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+footer ul {
+	display: grid;
+	grid-template-columns: repeat (4, auto);
+	grid-auto-flow: column;
+}
+
+footer li {
+	list-style: none;
+	display: block;
+	width: 37px;
+	height: 30px;
+	background: url(../images/icons.png) no-repeat;
+}
+
+
+.fb {
+	width: 16px;
+}
+.tw {
+	background-position: 0 -30px;
+	margin-left: 28px;
+}
+.g {
+	background-position: 0 -60px;
+	height: 33px;
+	margin-left: 19px;
+}
+.pin {
+	background-position: 0 -93px;
+	height: 32px;
+	margin-left: 23px;
+}
